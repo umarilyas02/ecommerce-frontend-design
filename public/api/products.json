@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "name": "Smart watches",
+    "image": "/assets/tech/smart-watches.png",
+    "price": 100,
+    "discount": "25%",
+    "isDeal": true,
+    "isTopListing": false,
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Laptops",
+    "image": "/assets/tech/laptops.png",
+    "price": 1200,
+    "discount": "15%",
+    "isDeal": true,
+    "isTopListing": false,
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "GoPro cameras",
+    "image": "/assets/tech/goprocameras.png",
+    "price": 300,
+    "discount": "40%",
+    "isDeal": true,
+    "isTopListing": false,
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "name": "Headphones",
+    "image": "/assets/tech/headphones.png",
+    "price": 75,
+    "discount": "25%",
+    "isDeal": true,
+    "isTopListing": false,
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "Canon cameras",
+    "image": "/assets/tech/canoncameras.png",
+    "price": 650,
+    "discount": "25%",
+    "isDeal": true,
+    "isTopListing": false,
+    "category": "Electronics"
+  },
+  {
+    "id": 6,
+    "name": "Soft chairs",
+    "image": "/assets/catagory/interior/softchar.png",
+    "price": 19,
+    "isDeal": false,
+    "isTopListing": true,
+    "category": "Home and outdoor"
+  },
+  {
+    "id": 7,
+    "name": "Sofa & chair",
+    "image": "/assets/catagory/interior/sofaandchar.png",
+    "price": 19,
+    "isDeal": false,
+    "isTopListing": true,
+    "category": "Home and outdoor"
+  },
+  {
+    "id": 8,
+    "name": "Kitchen dishes",
+    "image": "/assets/catagory/interior/kitchendishes.png",
+    "price": 19,
+    "isDeal": false,
+    "isTopListing": true,
+    "category": "Home and outdoor"
+  },
+  {
+    "id": 9,
+    "name": "Smart watches",
+    "image": "/assets/catagory/interior/smartwatches.png",
+    "price": 19,
+    "isDeal": false,
+    "isTopListing": true,
+    "category": "Home and outdoor"
+  },
+  {
+    "id": 10,
+    "name": "Kitchen mixer",
+    "image": "/assets/catagory/interior/kitchenmixers.png",
+    "price": 100,
+    "isDeal": false,
+    "isTopListing": false,
+    "category": "Home and outdoor"
+  },
+  {
+    "id": 11,
+    "name": "Blenders",
+    "image": "/assets/catagory/interior/blenders.png",
+    "price": 39,
+    "isDeal": false,
+    "isTopListing": false,
+    "category": "Home and outdoor"
+  },
+  {
+    "id": 12,
+    "name": "Home appliance",
+    "image": "/assets/catagory/interior/homeappliance.png",
+    "price": 19,
+    "isDeal": false,
+    "isTopListing": false,
+    "category": "Home and outdoor"
+  },
+  {
+    "id": 13,
+    "name": "Coffee maker",
+    "image": "/assets/catagory/interior/coffeemaker.png",
+    "price": 10,
+    "isDeal": false,
+    "isTopListing": false,
+    "category": "Home and outdoor"
+  },
+  {
+    "id": 14,
+    "name": "Smart watches",
+    "image": "/assets/catagory/tech/smartwatches.png",
+    "price": 19,
+    "isDeal": false,
+    "isTopListing": true,
+    "category": "Consumer electronics and gadgets"
+  },
+  {
+    "id": 15,
+    "name": "Cameras",
+    "image": "/assets/catagory/tech/cameras.png",
+    "price": 89,
+    "isDeal": false,
+    "isTopListing": true,
+    "category": "Consumer electronics and gadgets"
+  },
+  {
+    "id": 16,
+    "name": "Headphones",
+    "image": "/assets/catagory/tech/headphones.png",
+    "price": 10,
+    "isDeal": false,
+    "isTopListing": true,
+    "category": "Consumer electronics and gadgets"
+  },
+  {
+    "id": 17,
+    "name": "Smart watches",
+    "image": "/assets/catagory/tech/smartwatches-1.png",
+    "price": 90,
+    "isDeal": false,
+    "isTopListing": true,
+    "category": "Consumer electronics and gadgets"
+  },
+  {
+    "id": 18,
+    "name": "Gaming set",
+    "image": "/assets/catagory/tech/gamingset.png",
+    "price": 35,
+    "isDeal": false,
+    "isTopListing": false,
+    "category": "Consumer electronics and gadgets"
+  },
+  {
+    "id": 19,
+    "name": "Laptops & PC",
+    "image": "/assets/catagory/tech/laptopsandpc.png",
+    "price": 340,
+    "isDeal": false,
+    "isTopListing": false,
+    "category": "Consumer electronics and gadgets"
+  },
+  {
+    "id": 20,
+    "name": "Smartphones",
+    "image": "/assets/catagory/tech/smartphones.png",
+    "price": 19,
+    "isDeal": false,
+    "isTopListing": false,
+    "category": "Consumer electronics and gadgets"
+  },
+  {
+    "id": 21,
+    "name": "Electric kettle",
+    "image":"/assets/catagory/tech/electrickettle.png",
+    "price": 240,
+    "isDeal": false,
+    "isTopListing": false,
+    "category": "Consumer electronics and gadgets"
+  }
+]

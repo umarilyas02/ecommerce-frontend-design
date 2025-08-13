@@ -1,0 +1,54 @@
+
+[
+  {
+    "country": "Arabic Emirates",
+    "domain": "shopname.ae",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg"
+  },
+  {
+    "country": "Australia",
+    "domain": "shopname.com.au",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg"
+  },
+  {
+    "country": "United States",
+    "domain": "shopname.com",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg"
+  },
+  {
+    "country": "Russia",
+    "domain": "shopname.ru",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Russia.svg"
+  },
+  {
+    "country": "Italy",
+    "domain": "shopname.it",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg"
+  },
+  {
+    "country": "Denmark",
+    "domain": "denmark.com.dk",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Flag_of_Denmark.svg"
+  },
+  {
+    "country": "France",
+    "domain": "shopname.fr",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg"
+  },
+  {
+    "country": "China",
+    "domain": "shopname.cn",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
+  },
+  {
+    "country": "Pakistan",
+    "domain": "shopname.pk",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg"
+  },
+  {
+    "country": "Germany",
+    "domain": "shopname.de",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg"
+  }
+
+]

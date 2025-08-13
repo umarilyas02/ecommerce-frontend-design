@@ -1,0 +1,61 @@
+.Suppliers{
+    margin: auto;
+    margin-top: 3rem;
+    width: 118rem;
+    height: 13.8rem;
+    margin-bottom: 2rem;
+}
+
+.Suppliers h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.suppliers-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.6rem 2rem;
+}
+
+/* from ProductPage.css */
+.supplier-card {
+  border: 1px solid #e6e6e6;
+  padding: 1.2rem;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: column; /* This is overriding your 'row' direction */
+  gap: 1.2rem;
+}
+.Suppliers .supplier-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    gap: 1rem;
+}
+
+.Suppliers .flag-icon {
+    /* width: 2.4rem;
+     */
+    border: 0.1rem solid #e9ecef;
+}
+
+.Suppliers .supplier-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Suppliers .supplier-country {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.Suppliers .supplier-domain {
+    font-size: 1.4rem;
+    color: #6c757d;
+    margin: 0;
+}

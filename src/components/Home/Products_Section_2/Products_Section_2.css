@@ -1,0 +1,108 @@
+/* .Products_Section_2{
+     margin: auto;
+    margin-top: 2rem;
+    width: 118rem;
+    height: 25.7rem;
+    background-color: #ffffff;;
+    border-radius: 0.6rem;
+    border: 2px solid #ccc; */
+/* } */
+
+.Products_Section_2 {
+    margin: auto;
+    margin-top: 2rem;
+    width: 118rem;
+    height: 24rem;
+    background-color: #ffffff;
+    border-radius: 0.6rem;
+    border: 2px solid #ccc;
+    display: grid;
+    grid-template-columns: 28rem 1fr;
+}
+
+.category-header-banner {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 2rem;
+    color: #333;
+    position: relative;
+}
+
+.category-header-banner h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: absolute;
+    top: 2rem;
+}
+
+.category-header-banner button {
+    background-color: #ffffff;
+    color: #333;
+    border: none;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    top: 9rem;
+}
+
+.category-products-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0;
+}
+
+.top-listings,
+.other-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-bottom: 0.1rem solid #dee2e6;
+}
+
+.other-items {
+    border-bottom: none;
+}
+
+.product-listing-card {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-right: 0.1rem solid #dee2e6;
+    position: relative;
+}
+
+.product-listing-card:last-child {
+    border-right: none;
+}
+
+.listing-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.listing-name {
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.listing-price {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin: 0;
+}
+
+.product-listing-card img {
+    width: 8.2rem;
+    height: 8.2rem;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.5rem;
+}

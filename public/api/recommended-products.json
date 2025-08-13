@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "T-shirts with multiple colors, for men",
+    "price": "10.30",
+    "image": "/assets/recommended-products/t-shirts.png"
+  },
+  {
+    "id": 2,
+    "name": "Jeans shorts for men blue color",
+    "price": "10.30",
+    "image": "/assets/recommended-products/jacket.png"
+  },
+  {
+    "id": 3,
+    "name": "Brown winter coat medium size",
+    "price": "12.50",
+    "image": "/assets/recommended-products/blazer.png"
+  },
+  {
+    "id": 4,
+    "name": "Jeans bag for travel for men",
+    "price": "34.00",
+    "image": "/assets/recommended-products/leatherwallet.png"
+  },
+  {
+    "id": 5,
+    "name": "Leather wallet",
+    "price": "99.00",
+    "image": "/assets/recommended-products/jeansbag.png"
+  },
+  {
+    "id": 6,
+    "name": "Canon camera black, 100x zoom",
+    "price": "9.99",
+    "image": "/assets/recommended-products/jeans-short.png"
+  },
+  {
+    "id": 7,
+    "name": "Headset for gaming with mic",
+    "price": "8.99",
+    "image": "/assets/recommended-products/headset.png"
+  },
+  {
+    "id": 8,
+    "name": "Smartwatch silver color modern",
+    "price": "10.30",
+    "image": "/assets/recommended-products/jeansbag.png"
+  },
+  {
+    "id": 9,
+    "name": "Blue wallet for men metarfial",
+    "price": "10.30",
+    "image": "/assets/recommended-products/pot.png"
+  },
+  {
+    "id": 10,
+    "name": "Jeans bag for travel for men",
+    "price": "80.95",
+    "image": "/assets/recommended-products/teapot.png"
+  }
+]

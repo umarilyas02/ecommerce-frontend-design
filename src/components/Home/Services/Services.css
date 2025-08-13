@@ -1,0 +1,65 @@
+.Services{
+    margin: auto;
+    margin-top: 2rem;
+    width: 118rem;
+    height: 25.6rem;
+    background-color: #ffffff;;
+    border-radius: 0.6rem;
+}
+
+.Services h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.extra-services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.service-card {
+    background-color: #ffffff;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow: hidden;
+    height: 20rem;
+    width: 28rem;
+}
+
+.image-container {
+    position: relative;
+}
+
+.card-image {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.service-icon {
+    position: absolute;
+    bottom: -3rem; /* Pushes the icon down to overlap the title */
+    right: 2.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+    background-color: #D1E7FF;
+    border-radius: 50%;
+    /* font-size: 2.8rem; */
+    border: 0.2rem solid #ffffff;
+    
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    padding: 1.5rem;
+    margin: 0;
+}

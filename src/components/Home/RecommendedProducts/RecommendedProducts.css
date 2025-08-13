@@ -1,0 +1,68 @@
+
+
+/* Main container and title styling */
+.recommended-products-container {
+    width: 118rem;
+    max-height: 69.6rem;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.recommended-products-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+/* Grid layout for the products */
+.recommended-products-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem; /* Gap between columns and rows */
+}
+
+/* Styling for each individual product card */
+.recommended-product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+
+/* Image styling */
+.recommended-product-image {
+    width: 20rem;
+    height: 20rem;
+    max-width: 150px; /* Ensures the image doesn't get too large */
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+/* Product info styling */
+.recommended-product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.recommended-product-info .recommended-product-price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    /* margin-top: 1rem; */
+}
+
+.recommended-product-name {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0;
+    text-align: left;
+}

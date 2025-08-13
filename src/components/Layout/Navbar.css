@@ -1,0 +1,164 @@
+nav {
+  min-width: 144rem;
+  height: 14.2rem;
+  background: #ffffff;
+}
+.upper-div-wrapper {
+  height: 8.6rem;
+  width: 100%;
+}
+.Upper-Navbar {
+  height: 8.6rem;
+  max-width: 118rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower-div-wrapper {
+  height: 5.6rem;
+  width: 100%;
+  border: 2px solid #ccc;
+  box-shadow: #ccc;
+}
+
+.Lower-Navbar {
+  height: 5.6rem;
+  width: 118rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+
+.nav-logo {
+  height: 4.6rem;
+  width: 15rem;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #0072ff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 66.5rem;
+  height: 4rem;
+  margin-left: 4.6rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 40.21rem;
+}
+
+.category-select {
+  padding-left: 1rem;
+  border: none;
+  border-left: 1px solid #0072ff;
+  height: 100%;
+  width: 14.5rem;
+  appearance: none;
+  background: white url("/src/assets/expand_more-icon.png") no-repeat right
+    center;
+  background-position: right 1rem center;
+}
+.search-btn {
+  padding: 0.6rem 1.2rem;
+  background: #0072ff;
+  color: white;
+  border: 1px solid #0072ff;
+  cursor: pointer;
+  height: 100%;
+  width: 10rem;
+}
+
+/* Right: Icons */
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+  margin-left: 8.9rem;
+  margin-right: 0;
+}
+
+.nav-icons img {
+  cursor: pointer;
+}
+
+/* Lower Navbar Menu */
+.menu-left {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  font-size: 1.4rem;
+  width: 62rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-left li {
+  cursor: pointer;
+}
+.help {
+  border: none;
+  outline: none;
+  appearance: none;
+  background: white url("/src/assets/expand_more-icon.png") no-repeat right
+    center;
+  background-position: right 1rem center;
+  padding: 0.6rem 1rem;
+  width: 8rem;
+}
+
+.menu-right {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  font-size: 1.4rem;
+  width: 28rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-right select {
+  display: flex;
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+}
+.nav-icon-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-link {
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+
+
+
+

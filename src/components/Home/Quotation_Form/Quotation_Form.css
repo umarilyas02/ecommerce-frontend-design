@@ -1,0 +1,140 @@
+.Quotation_Form {
+  margin: auto;
+  margin-top: 2rem;
+  width: 118rem;
+  height: 42rem;
+  border: 2px solid #ccc;
+  /* The main background image is now set here. */
+  background-image: url("../../../assets/bg-card-quote.png");
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  position: relative; /* Needed for the ::before pseudo-element. */
+  isolation: isolate; /* Creates a new stacking context. */
+}
+
+/* This pseudo-element creates the image overlay. */
+.Quotation_Form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* I am assuming the filename is 'bg-card.png' based on your import. */
+  background-image: url("../../../assets/bg-card.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 1; /* Adjust this value to control the overlay's transparency. */
+  border-radius: 0.8rem; /* Match the parent's border-radius. */
+  z-index: -1; /* Place it behind the content. */
+}
+
+.quote-content h2 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 4rem;
+  max-width: 40rem;
+  color: white; /* Changed to white for readability on the overlay. */
+  margin-left: 4rem;
+}
+
+.quote-content p {
+  color: white; /* Changed to white for readability on the overlay. */
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 45rem;
+  margin-left: 4rem;
+  margin-top: 1.3rem;
+  margin-bottom: 22.7rem;
+}
+
+.quote-form-container {
+  background-color: white;
+  color: #333;
+  padding: 2.5rem 2rem;
+  border-radius: 0.8rem;
+  height:34.6rem ;
+  width: 49rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+  position:absolute;
+  right: 3rem;
+}
+
+
+.quote-form-container h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 1.4rem;
+  border: 0.1rem solid #dee2e6;
+  border-radius: 0.6rem;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  min-height: 8rem;
+  min-width: 44rem;
+  resize: bottom;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+
+.form-row .pcs-group {
+  width:11rem;
+} 
+
+.form-row select {
+  appearance: none;
+  background-image: url("/src/assets/expand_more-icon.png");
+  background-repeat: no-repeat;
+  background-position: right 1.5rem center;
+  background-size: 2rem;
+}
+
+.quantity-group{
+    width: 20.6rem;
+}
+
+.send-inquiry-btn {
+  width: 12.8rem;
+    height: 4rem;
+  padding: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-inquiry-btn:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,153 @@
+.footer{
+
+    width: 100%;
+    height: 32.4rem;
+    background-color: #f8f9fa;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.upper-footer {
+    background-color: #f8f9fa;
+    margin: auto;
+    width: 118rem;
+    height: 25.6rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    display: grid;
+    grid-template-columns: 1fr repeat(4, auto) 1fr;
+    gap: 6rem;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-column {
+    grid-column: 1 / 2;
+    max-width: 25rem;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo-icon {
+    font-size: 2.4rem;
+    margin-right: 1rem;
+    margin-left: 0;
+    color: white;
+}
+
+
+.brand-description {
+    color: #6c757d;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #e9ecef;
+    color: #6c757d;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 1.5rem;    
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 1rem;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 1.4rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.app-column {
+    grid-column: 6 / 7;
+    align-items: center;
+    text-align: center;
+}
+
+.app-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.app-links img {
+    max-width: 13.5rem;
+    height: auto;
+}
+
+
+.lower-footer{
+    width: 118rem;
+    height: 6.8rem;
+    margin: auto;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.copyright {
+    color: #6c757d;
+    font-size: 1.4rem;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: #333;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.flag-icon {
+    width: 2rem;
+    height: 1.5rem;
+    border-radius: 0.2rem;
+}
+
+.arrow-icon {
+    font-size: 1rem;
+    transform: rotate(180deg);
+}

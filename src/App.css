@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+  /* this will set 1rem=10px */
+  font-size: 62.5%;
+}
+
+body{
+  background:#F6FAFD;
+}
+
+a{
+  text-decoration: none;
+}
+
