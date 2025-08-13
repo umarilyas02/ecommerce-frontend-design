@@ -6,4 +6,4 @@
 
 }
 
-# Click On More Catagory for Products Page
+# Click On Deals Section Products for Products Page
