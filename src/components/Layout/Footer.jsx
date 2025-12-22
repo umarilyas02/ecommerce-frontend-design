@@ -84,7 +84,7 @@ const Footer = () => {
       
         <div className="lower-footer">
                 <div className="copyright">
-                    © 2023 Ecommerce.
+                    Developed by <a href='umarilyas.dev'>UMAR ILYAS</a>
                 </div>
                 <div className="language-selector">
                     <span>English</span>
